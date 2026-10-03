@@ -1,0 +1,10 @@
+# Core (pip) — aman di-install lewat `pip install -r requirements.txt`
+pwntools>=4.10.0
+ROPGadget>=6.6
+
+# one_gadget TIDAK diinstal via pip — itu Ruby gem:
+#   gem install one_gadget
+# (opsional; cuma dipakai oleh --strategy one_gadget)
+
+# Dependency sistem (apt), bukan pip:
+#   sudo apt install gdb binutils
